@@ -133,10 +133,6 @@ function sendKeysToServer() {
             key: window.arrBuffToBase64(signedPreKeyObject.keyPair.pubKey),
             signature: window.arrBuffToBase64(signedPreKeyObject.signature)
         },
-        /*preKey: {
-            id: preKeyObjects[0].keyId,
-            key: window.arrBuffToBase64(preKeyObjects[0].keyPair.pubKey)
-        }*/
         preKeys: preKeyObjectsToSend
     }
 
