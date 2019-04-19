@@ -1,0 +1,24 @@
+{
+  "name": "signal-example",
+  "version": "1.0.0",
+  "description": "Ejemplo de libsignal",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node %NODE_DEBUG_OPTION% server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosmellopez/signal-javascript-example.git"
+  },
+  "keywords": [
+    "libsignal",
+    "libsignal-protocol-javascript",
+    "example"
+  ],
+  "author": "Yosmel",
+  "license": "ISC"
+}
